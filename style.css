@@ -97,7 +97,7 @@ header {
     text-align: left;
     margin-top: 5px;
     margin-left: 10px;
-    position: sticky;
+    bottom: 100;
 }
 
 header h1 {
