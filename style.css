@@ -95,9 +95,8 @@ body, html {
 
 header {
     text-align: left;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: 10px;
-    bottom: 100;
 }
 
 header h1 {
