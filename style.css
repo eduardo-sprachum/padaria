@@ -5,6 +5,7 @@ body, html {
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
+    overflow: hidden;
 }
 
 /* ======= Sidebar ======= */
@@ -33,9 +34,17 @@ body, html {
 .icon {
     width: 24px;
     height: 24px;
-    background-color: white;
-    border-radius: 4px;
+    background-color: transparent;
     margin-right: 10px;
+}
+
+/* Removendo o fundo branco da seta */
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
 .sub-menu {
@@ -55,14 +64,15 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 20px;
     background-color: #f9f9f9;
+    overflow-y: auto;
 }
 
 header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 header h1 {
@@ -83,17 +93,18 @@ header p {
 
 /* ======= Buttons ======= */
 .buttons-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    width: 600px;
+    width: 100%;
 }
 
 .buttons-container button {
     background-color: #1d2671;
     color: white;
     border: none;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 8px;
     font-size: 1.2em;
     cursor: pointer;
