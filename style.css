@@ -44,6 +44,18 @@ body, html {
     margin-right: 10px;
 }
 
+.ai-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.help-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
 /* Removendo o fundo branco da seta */
 .toggle-btn {
     background-color: transparent;
