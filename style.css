@@ -88,9 +88,6 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 20px;
-    background-color: #f9f9f9;
-    overflow-y: auto;
 }
 
 
@@ -147,6 +144,6 @@ footer {
     color: white;
     text-align: center;
     padding: 15px 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
