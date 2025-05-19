@@ -9,18 +9,37 @@
 <body>
     <div class="sidebar">
         <div class="menu-item">
-            <span>📊</span> Início
-            <button onclick="toggleSubMenu()" class="toggle-btn">▾</button>
-            <div id="sub-menu" class="sub-menu">
-                <a href="#">Vendas</a>
-                <a href="#">Despesas</a>
-                <a href="#">Estoque</a>
-                <a href="#">Relatórios</a>
+            <div class="icon">
+                <!-- Imagem de ícone vai aqui -->
             </div>
+            <span>Início</span>
+            <button onclick="toggleSubMenu()" class="toggle-btn">▾</button>
         </div>
-        <a href="#">👤 Perfil</a>
-        <a href="#">💬 IA</a>
-        <a href="#">❓ Ajuda</a>
+        <div id="sub-menu" class="sub-menu">
+            <a href="#">Vendas</a>
+            <a href="#">Despesas</a>
+            <a href="#">Estoque</a>
+            <a href="#">Relatórios</a>
+        </div>
+        
+        <a href="#">
+            <div class="icon">
+                <!-- Imagem de ícone vai aqui -->
+            </div>
+            Perfil
+        </a>
+        <a href="#">
+            <div class="icon">
+                <!-- Imagem de ícone vai aqui -->
+            </div>
+            IA
+        </a>
+        <a href="#">
+            <div class="icon">
+                <!-- Imagem de ícone vai aqui -->
+            </div>
+            Ajuda
+        </a>
     </div>
 
     <div class="main-content">
@@ -37,11 +56,11 @@
             <button>Relatórios Mensais</button>
             <button>Assistente IA via Whatsapp</button>
         </div>
-
-        <footer>
-            <p>New Code Systems© - A solução para o seu negócio<br>Contato: (42) 999443005</p>
-        </footer>
     </div>
+
+    <footer>
+        <p>New Code Systems© - A solução para o seu negócio | Contato: (42) 99944-3005</p>
+    </footer>
 
     <script>
         function toggleSubMenu() {
