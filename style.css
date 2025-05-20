@@ -146,16 +146,20 @@ header p {
 
 .vendas-container {
     display: none; /* Oculta inicialmente */
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 8px;
     text-align: center;
 }
+
+.hidden {
+    display: none;
+}
+
 
 /* ======= Footer ======= */
 footer {

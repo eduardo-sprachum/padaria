@@ -1,6 +1,4 @@
 document.getElementById("btnVendas").addEventListener("click", function() {
-    let vendasSection = document.getElementById("vendas");
-
-    // Alterna entre mostrar e esconder a seção de vendas
-    vendasSection.style.display = (vendasSection.style.display === "none" || vendasSection.style.display === "") ? "block" : "none";
+    document.getElementById("vendas").style.display = "block"; // Mostra a seção de vendas
+    document.querySelector(".buttons-container").classList.add("hidden"); // Esconde os botões iniciais
 });
