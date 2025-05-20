@@ -145,7 +145,7 @@ header p {
 }
 
 .vendas-container {
-    display: none; /* Começa oculta */
+    display: none; /* Oculta inicialmente */
     position: fixed;
     top: 10%;
     left: 50%;
