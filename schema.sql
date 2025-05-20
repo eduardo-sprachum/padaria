@@ -1,0 +1,7 @@
+CREATE TABLE vendas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produto VARCHAR(255) NOT NULL,
+    quantidade INT NOT NULL,
+    valor DECIMAL(10,2) NOT NULL,
+    data_venda TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
